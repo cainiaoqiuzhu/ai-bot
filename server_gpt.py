@@ -25,7 +25,6 @@ from my_tools import Search, getInfoFromLocalDb, BaziCompute, yaoyigua, jiemeng
 from DashScopeClient import DashScopeClient
 from config import qwen_setting
 
-os.environ["SERPAPI_API_KEY"] = "b30a4cb597e584d386ad5629a65ae0b45876514811cd44ecc79d6848a0f1e12f"
 qwenOpenAIModel = DashScopeClient(qwen_setting['api_key'], qwen_setting['qwen_api'])
 myQwenModel = {
         'model_type': 'qwenvl_oai',
